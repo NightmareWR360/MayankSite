@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+<title>Mayank Katwal Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./test.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+<head>
+	<link rel="shortcut icon" href="./PICS/wiscoico.ico">
+	<script src="./test.js"></script>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:200px;font-weight:bold" id="mySidebar"><br>
+  <!--<h3 class="w3-padding-64 w3-center"><b>Mayank<br>Katwal</b></h3>-->
+  <img src="./PICS/PROFILE.JPG" style="width:90%">
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
+    <a href="#education" onclick="w3_close()" class="w3-bar-item w3-button">EDUCATION</a> 
+  <a href="#experience" onclick="w3_close()" class="w3-bar-item w3-button">EXPERIENCE</a>
+    <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button">SKILLS</a>
+  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+    <a href="#leadership" onclick="w3_close()" class="w3-bar-item w3-button">LEADERSHIP</a>
+    <a href="#gallery" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT ME</a>
+  <br></br>
+  <br> </br>
+  	 <a href="./Mayank_Katwal_Resume.pdf" download>
+      <button class="dbtn2 w3-center" width = "40%"><i class="fa fa-download"></i> Download Resume</button>
+	  </a>
+  
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Mayank Katwal</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:200px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+<!-- Home section -->
+      <img src="./PICS/IMG_4734.png" style="width:100%" style="height:110%">
+ 
+ 
+   <!-- The Modal -->
+<div id = myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="./PICS/IMG_5441.jpg" width="100%">
+  </div>
+</div>
+
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>About Me</b></h4>
+	<img src="./PICS/IMG_5881.jpg" class = "aboutmepic" width="25%">
+		
+	<br></br>
+    <div class="w3-content w3-justify" style="max-width:800px">
+      <p>My name is Mayank Katwal. If you can't pronounce that, don’t worry, you are one of the millions of people who struggle to. It's pronounced My·Unc Cat·Wall. I was born
+	  in Kathmandu, Nepal. If you have no idea where that is, once again don’t worry, there are millions of people who couldn’t point it out on a map. Nepal is an Asian country located 
+		between China and India and is home to the biggest mountain in the world, Mt. Everest. At the age of eight, I 
+	  sailed to America on a <a id="myBtn"><u>hand made boat</u></a> that my grandpa made to pursue the American Dream. Now, here I am in Chicago 14 years later to tell you my story. By the way, Nepal 
+	  is a land-locked country, I was kidding about sailing here. Enough jokes let’s talk about my career...
+      </p>
+	  </br>
+	  <p>
+		I attend the <strong>University of Wisconsin-Madison</strong>, where I am double majoring in <strong>Computer Engineering and Computer Science</strong>. Upon my graduation in December 2018, I seek to continue my work in the field of Software-Engineering as I have while interning the past three summers. More information on that can be found in the <a href="#experience" onclick="w3_close()" >experience section</a> below. During my time at Wisconsin, I have taken various hardware courses and with Computer Science background, I have 
+		taken a lot of programming and software classes. More information about my classes can be found in the  <a href="#education" onclick="w3_close()" >education section</a> below. Aside from school, I am the Founding Father, Co-Secretary and 
+		Co-IT Committee Chair of Phi Delta Theta Fraternity. In my free time, I love to play basketball or work on personal projects such as this website.
+
+	  </p>
+	  </br>
+	  <p>
+	  I have four years of JAVA and object-oriented programming experience alongside 
+	  front end and back end technologies such as HTML,CSS,JS and SQL. Having worked on an AGILE team for the past three summers, I gained in-depth knowledge of cloud-based solutions 
+	  and REST API development, testing and deployment. I believe that my interpersonal skills and leadership qualities, on top of my technical skills, have enabled me to be successful in the field of
+	  Software Engineering and as a student.
+
+      </p>           
+    </div>
+  </div>
+  
+
+	<!-- Education section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="education">
+    <div class="w3-content" style="max-width 800px">
+      <h4 class="w3-center"><b>Education</b></h4>
+	  <br> </br>
+	<div class="row">
+  <div class="column">
+	  <img src="./PICS/wisco.png" alt="Me" width="60%" height="60%">
+  </div>
+  <div class="column">
+	  <h4 class="edu_text"><strong>University of Wisconsin-Madison</strong></h4>
+	  <p><font size="4">B.S. Computer Engineering & Computer Science</font></p>
+	  <p><font size="4">GPA:3.23</font></p>
+	  <p><font size="4"><strong>Hardware Courses:</strong></font></p>
+	   <p><font size="3">Circuits Analysis I/II, Circuits Lab I/II, Digital Synthesis Design, Microprocessors, Signals and Computation </font></p>
+	   	  <p><font size="4"><strong>Software Courses:</strong></font></p>
+	   <p><font size="3">JAVA, Data Structure, Machine Organization, Algorithms, Operating Systems, Networks, Human Computer Interaction </font></p>
+	</div>
+</div>
+    </div>
+  </div>
+  
+  
+<!-- Experience section -->
+<div class="w3-container w3-grey w3-padding-32 w3-text-light-grey" id="experience">
+    <div class="w3-content" style="max-width 800px"> 
+	<h4 class = "w3-center"><b>Experience</b></h4>
+	<br> </br>
+<div class="row">
+  <div class="column">
+  	  <img src="./PICS/discover.png" class="" width="70%" height="70%">
+  </div>
+  <div class="column">
+          <h4 class="test"><strong>Discover Financial Services</strong></h4>
+			 <p><font size="4">Application Development Intern</font></p>
+			<p><font size="4"><i>Riverwoods,Illinois</i></font></p>
+			<ul>
+			<li>Working on an AGILE team to develop and a REST service API for the PULSE network team  </li>
+			<li>Migrating legacy application code to new cloud solution with JAVA Spring MVC Framework and REST Architecture </li>
+			<li> Implementing security functionality on the REST API with JWT </li>
+			<li> Learning to develop Jenkins build and deploy pipeline </li>
+			<li> Testing and debugging business functionality of REST Service with Swagger File and POSTMAN </li>
+			<li> Led team of ten interns to win the 2018 Discover Ideathon against ten other teams of interns </li>
+			</ul>
+	</div>
+</div>
+
+     <hr class="w3-opacity">
+
+
+<div class="row">
+  <div class="column">
+  	  <img src="./PICS/fedex.png" class="" width="70%" height="70%">
+  </div>
+  <div class="column">
+          <h4 class="test"><strong>FedEx Ground</strong></h4>
+			 <p><font size="4">Software-Engineering Intern</font></p>
+			<p><font size="4"><i>Brookfield,Wisconsin</i></font></p>
+			<ul>
+			<li>Worked on an AGILE team focused around Cloud Solutions to create a REST Service API</li>
+			<li>Developed API with JAVA Spring MVC Framework to retrieve information about package life-span</li> 
+			<li>Configured API with MAVEN dependencies and developed Jenkins pipeline for deployment</li> 
+			<li>Wrote various JUNIT and Integration tests for API that resulted in 99% code coverage</li>
+			<li>Jenkins, POSTMAN, WebLogic Server, Linux were used for server-side deployment and testing</li>  
+			</ul>
+
+	</div>
+</div>
+
+     <hr class="w3-opacity">
+
+<div class="row">
+  <div class="column">
+  	  <img src="./PICS/grande.png" class="" width="70%" height="70%">
+  </div>
+  <div class="column">   			
+	         <h4 class="test"><strong>Grande Cheese Company</strong></h4>
+			 <p><font size="4">IT-Business Systems Intern</font></p>
+			<p><font size="4"><i>Fon Du Lac,Wisconsin</i></font></p>
+			<div class = "list">
+			<ul>
+			<li>Attended various AGILE ceremonies and worked to complete 10 user stories throughout the internship</li>
+			<li>Developed a Windows Application with VB.net with SQL backend for managers to evaluate interns  </li>
+			<li>Added input validation checks and edited UIs for factory systems using HTML, C# CSS, JS </li>
+			<li>Migrated company SharePoint site from the 2010 to 2016 version to save nearly 50% more cloud space  </li>
+			</div>
+			</ul>
+	</div>
+</div>
+
+     <hr class="w3-opacity">
+	 <a href="./Mayank_Katwal_Resume.pdf" download>
+      <button class="dbtn w3-center"><i class="fa fa-download"></i> Download Resume</button>
+	  </a>
+	  
+	  
+    </div>
+  </div>
+  
+  
+  
+  
+  <!-- Skills section -->
+  <div class="w3-container w3-light-grey w3-center w3-padding-64" id="skills">
+    <h4><b>Technical Skills</b></h4>
+    <div class="w3-content w3-justify" style="max-width:900px">
+    <!-- top row -->
+	<div class="row w3-center">
+  <div class="skills-col">				
+  	  <img src="./PICS/java.png" class="" width="25%" height="25%">
+  </div>
+  <div class="skills-col">
+  	  <img src="./PICS/c.png" class="" width="55%" height="55%">
+  </div>
+  <div class="skills-col">
+  	  <img src="./PICS/sql.png" class="" width="45%" height="45%">
+  </div>
+    </div>
+	<!-- top section rating --> 
+<div class="row w3-center">
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+    </div>
+	<br> 
+	<br> 
+	</br>
+	</br>
+	    <!-- 2nd row -->
+	<div class="row w3-center">
+  <div class="skills-col">
+  	  <img src="./PICS/html.png" class="" width="30%" height="30%">
+  </div>
+  <div class="skills-col">
+  	  <img src="./PICS/js.png" class="" width="30%" height="30%">
+  </div>
+  <div class="skills-col">
+  	  <img src="./PICS/css.png" class="" width="30%" height="30%">
+  </div>
+    </div>
+	<br></br>
+	<!-- 2nd section rating --> 
+<div class="row w3-center">
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+    </div>
+		<br> 
+	<br> 
+	</br>
+	</br>
+   
+  <!--3rd -->
+	<div class="row w3-center">
+  <div class="skills-col">
+  	  <img src="./PICS/git.png" class="" width="45%" height="45%">
+  </div>
+  <div class="skills-col">
+  	  <img src="./PICS/jenkins.png" class="" width="60%" height="60%">
+  </div>
+  <div class="skills-col">
+  	  <img src="./PICS/spring.png" class="" width="65%" height="65%">
+  </div>
+    </div>
+	<br></br>
+<div class="row w3-center">
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+  <div class="skills-col">
+<div style="text-align:center">
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="reddot"></span>
+  <span class="graydot"></span>
+</div>  </div>
+    </div>
+  
+  <br></br>
+  
+  </div>
+  </div>
+
+  
+  <!-- Projects section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="projects">
+    <h4><b>Projects</b></h4>
+	<p>Check out some of these cool projects! </p>
+	<br> </br>
+    <div class="w3-content w3-justify w3-center" style="max-width:800px">
+  <div class="row">
+  <div class="proj-column">
+						<br></br>
+
+			  <img src="./PICS/tictac.PNG" class = "wisco_img" alt="Me" width="50%" height="50%">
+			  <br></br>
+			  <a href = "https://www.youtube.com/watch?v=6jPfLBsrgk0&index=3&t=0s&list=PLEagrSb0zTe7Zgvr24NZ4wN1SZt507DqP" target="_blank">Watch Video</a>
+
+  </div>
+    <div class="proj-column">
+			  <p><font size="4"><strong><u>Tic-Tac-Toe Game</u></strong></font></p>
+	   <p><font size="3"><strong>Description:</strong></font></p>
+	   <p><font size="3">Created a Tic-Toe-Toe game on an ARM Cortex Board. The game is played against another board using a Xebee Module that allows you to send and receive data. 
+	   I worked on the algorithm that checks the board at each iteration for a winner and also implemented in game graphics. </font></p>
+	   <p><font size="3"><strong>Technology/Programming Laguages Used:</strong></font></p>
+	   <p><font size="3">C Programming Language, ARM Cortex Board, Keil IDE, Xebee Module</font></p>
+	   <br> </br>
+
+
+  </div>
+  </div>
+  <br> </br>
+    <div class="row">
+  <div class="column">
+		<br></br>
+  	  <img src="./PICS/pacman.PNG" class = "wisco_img" alt="Me" width="50%" height="50%">
+	  <br></br>
+	  <a href = "https://www.youtube.com/watch?v=PNmv5NobSgo&index=2&t=22s&list=PLEagrSb0zTe7Zgvr24NZ4wN1SZt507DqP" target="_blank">Watch Video</a>
+
+	 
+
+  </div>
+    <div class="column">
+			<p><font size="4"><strong><u>PacMan Game</u></strong></font></p>
+	   <p><font size="3"><strong>Description:</strong></font></p>
+	   <p><font size="3">Made a PacMan game with an ARM Microelectronic Circuit board for a final project with a Partner. Game is played with two players, one controlling Ghost with push buttons, the other controlling PacMan with an analog joystick. I implemented the collision checks and in game graphcis </font></p>
+	   <p><font size="3"><strong>Technology/Programming Laguages Used:</strong></font></p>
+	   <p><font size="3">C Programming Language, ARM Cortex Board, Keil IDE, UART TX/RX, Wireless EEPROM, LED Touch Display</font></p>
+
+  </div>
+  </div>
+  <br></br>
+      <div class="row">
+  <div class="proj-column">
+			<br></br>
+			  <img src="./PICS/businesCard.jpg" class = "wisco_img" alt="Me" width="60%" height="30%">
+			  						<br></br>
+			  <img src="./PICS/IMG_69.jpg" class = "wisco_img" alt="Me" width="60%" height="50%">
+
+  </div>
+    <div class="proj-column">
+			  		<p><font size="4"><strong><u>Electronic Business Card</u></strong></font></p>
+	   <p><font size="3"><strong>Description:</strong></font></p>
+	   <p><font size="3">Created an electronic business card that has touch pad LED panels, so corresponding lights will turn on when activated. Drew the schematics for each part of the board (MCU, Power,etc..) on Altium and soldered each part (resistor, capacitors,etc...) to the backside of the board. </font></p>
+	   <p><font size="3"><strong>Technology/Programming Laguages Used:</strong></font></p>
+	   <p><font size="3">C Programming Language, ARM Cortex Board, Keil IDE, PCB Board, Altium, Soldering</font></p>
+
+  </div>
+  </div>
+    <br></br>
+
+  <div class="row">
+  <div class="column">
+  <br></br>
+   <br></br>
+		<img src="./PICS/snn.jpg" class = "wisco_img" alt="Me" width="70%" height="50%">
+
+  </div>
+    <div class="column">
+			  		<p><font size="4"><strong><u>Simple Neural Network</u></strong></font></p>
+	   <p><font size="3"><strong>Description:</strong></font></p>
+	   <p><font size="3">Developed a neural network program that reads in hand written text files with a number 1-9 and interprets the corresponding number's ACII Value. Program used Finite-State-Machine when reading through inputs. Worked on creating testbenches and played a large part debugging the program.  </font></p>
+	   <p><font size="3"><strong>Technology/Programming Laguages Used:</strong></font></p>
+	   <p><font size="3">Verilog, Keil IDE, ModelSim, FPGA</font></p>
+
+  </div>
+  </div>
+  <br></br>
+    <div class="row">
+  <div class="proj-column">
+		<br> </br>
+		<img src="./PICS/pdt.jpg" class = "wisco_img" alt="Me" width="60%" height="50%">
+
+  </div>
+    <div class="proj-column">
+			  		<p><font size="4"><strong><u>Websites</u></strong></font></p>
+	   <p><font size="3"><strong>Description:</strong></font></p>
+	   <p><font size="3">Learned front end technologies like HTML,CSS, JS to build a website for the fraternity. Website URL: uwphidelt.com (website is down for construction). Also made this personal website using same languages from scratch  </font></p>
+	   <p><font size="3"><strong>Technology/Programming Laguages Used:</strong></font></p>
+	   <p><font size="3">HTML, CSS, JS, AWS</font></p>
+  </div>
+  </div>
+  
+</div>
+
+  </div>
+  
+  <!-- Leadership -->
+    <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="leadership">
+    <div class="w3-content" style="max-width:800px">
+      <h4 class="w3-center"><b>Leadership</b></h4>
+	  <br></br>
+		      <div class="row">
+  <div class="proj-column">
+			  <img src="./PICS/found.png" class = "wisco_img" alt="Me" width="60%" height="30%">
+
+  </div>
+    <div class="proj-column">
+			  		<p><font size="4"><strong><u>Founding Father of Phi Delta Theta</u></strong></font></p>
+	   <p><font size="3"><strong>Description:</strong></font></p>
+	   <p><font size="3"> Started a new chapter of the Phi Delta Theta Fraternity on Campus in 2014. Part of the recruitment commitee that helped the chapter remain on campus. I held executive position as a co-recruitment chair my junior year. As a senior I was the secretary that introduced Slack to the chapter and created a global calender app. Now the chapter stands strong with about 60 members and we have a brand new house on campus. </font></p>
+
+  </div>
+  </div>
+    <br></br>
+
+  <div class="row">
+  <div class="column">
+  <br></br>
+		<img src="./PICS/discart.jpg" class = "wisco_img" alt="Me" width="80%" height="50%">
+
+  </div>
+    <div class="column">
+			  		<p><font size="4"><strong><u>Discover Ideathon 2018 Captain</u></strong></font></p>
+	   <p><font size="3"><strong>Description:</strong></font></p>
+	   <p><font size="3">Led a team of 10 interns through the 2018 Discover Internship Ideathon and took home 1st place out of 10 other teams. In charge of creating the user interface prototype for our service and gave a demo to a panel of judges consisting of managers, product owners and directors. </font></p>
+	  
+
+  </div>
+  </div>
+  <br></br>
+    <div class="row">
+  <div class="proj-column">
+		<img src="./PICS/bball.jpg" class = "wisco_img" alt="Me" width="70%" height="50%">
+
+  </div>
+    <div class="proj-column">
+			  		<p><font size="4"><strong><u>IM Rec League Captain</u></strong></font></p>
+	   <p><font size="3"><strong>Description:</strong></font></p>
+	   <p><font size="3">Capatain of many Rec League sports such as basketball and football. In charge of communicating games with teams, reporting results and rescheduling games </font></p>
+  </div>
+  </div>
+		
+	
+    </div>
+  </div>
+  
+    
+  
+    <!-- Gallery section -->
+  <div class="w3-container w3-grey w3-center w3-text-light-grey w3-padding-32" id="gallery">
+    <h4><b>Gallery</b></h4>
+    <div class="w3-content w3-justify w3-center" style="max-width:800px">
+	<p> Just some pictures of me and my friends! Enjoy :) </p>
+          <!--<div class="row">
+  <div class="column">
+			  <img src="./PICS/IMG_5408.jpg" class = "wisco_img" alt="Me" width="60%" height="60%">
+  </div>
+  <div class="column">
+  	  <img src="./PICS/IMG_5628.jpg" class = "wisco_img" width="60%" height="60%" >
+
+	</div>-->
+<div class="w3-content w3-section" style="max-width:650px">
+  <img class="mySlides" src="./PICS/game.jpg" style="width:100%">
+  <img class="mySlides" src="./PICS/IMG_5556.jpg" style="width:100%">
+  <img class="mySlides" src="./PICS/IMG_5408.jpg" style="width:100%">
+    <img class="mySlides" src="./PICS/IMG_5426.jpg" style="width:90%">
+	<img class="mySlides" src="./PICS/IMG_56281.jpg" style="width:85%">
+		<img class="mySlides" src="./PICS/IMG_56361.jpg" style="width:95%">
+			<img class="mySlides" src="./PICS/IMG_20841.jpg" style="width:90%">
+				<img class="mySlides" src="./PICS/IMG_35481.jpg" style="width:75%">
+				<img class="mySlides" src="./PICS/IMG_53481.jpg" style="width:75%">
+				<img class="mySlides" src="./PICS/IMG_62261.jpg" style="width:70%">
+					<img class="mySlides" src="./PICS/IMG_64911.jpg" style="width:70%">
+		
+<br></br>
+<br></br>
+<br></br>
+</div>
+
+</div>
+    </div>
+  
+  
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:800px">
+      <h4 class="w3-center"><b>Contact Me</b></h4>
+      <p class = "w3-center">Feel free to shoot me an email or follow me on social media!</p>
+		<br></br>
+		 <p class = "w3-center"><font size="4"><strong>School Email:</strong></font></p>
+		  <p class = "w3-center"><font size="3">katwal@wisc.edu</font></p>
+		<p class = "w3-center" ><font size="4"><strong>Personal Email:</strong></font></p>
+		  <p class = "w3-center"><font size="3">katwalmayank@yahoo.com</font></p>
+		  <p class = "w3-center"><font size="4"><strong>Phone Number:</strong></font></p>
+		  <p class = "w3-center"><font size="3">(630) 770- 9445</font></p>
+		<br> </br>
+		
+	<div class="row w3-center">
+	<div class="column-icons">
+		<a href="https://www.linkedin.com/in/mayank-katwal-41ab71b1/" target="_blank">
+			<img src="./PICS/linkedin.png" class = "icons">
+		</a>
+	</div>
+	<div class="column-icons">
+		<a href="https://www.facebook.com/mayank.katwal" target="_blank">
+		<img src="./PICS/fb.png" class = "icons" >
+		</a>
+	</div>
+	<div class="column-icons">
+	<a href = "https://github.com/NightmareWR360" target = "_blank">
+		<img src="./PICS/github.png" class = "icons" >
+	</a>
+	</div>
+	<div class="column-icons">
+	<a href = "https://instagram.com/myyonk" target = "_blank">
+		<img src="./PICS/insta.png" class = "icons" >
+		</a>
+	</div>
+	<div class="column-icons">
+		<a href = "https://twitter.com/MY_YONK" target = "_blank">
+		<img src="./PICS/twitter.png" class = "icons" >
+		</a>
+	</div>
+	<br> </br>
+	<br> </br>
+	<br> </br>
+
+</div>
+    </div>
+  </div>
+
+  <!-- Footer
+  <footer class="w3-container w3-padding-32 w3-grey">  
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>INFO</h3>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>      
+      </div>
+    
+      <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul">
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Lorem</span><br>
+            <span>Sed mattis nunc</span>
+          </li>
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Ipsum</span><br>
+            <span>Praes tinci sed</span>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </footer>-->
+  
+  <div class="w3-black w3-center w3-padding-32">Created by Mayank Katwal using HTML, CSS, JS. Tutorials by <a href = "https://www.w3schools.com/">w3schools</a><class="w3-hover-opacity"></a></div>
+
+
+  
+  
+<!-- End page content -->
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+//side menubar
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+</body>
+</html>
